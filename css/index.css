@@ -1,0 +1,47 @@
+.ui-listview>li>a.ui-btn {
+    text-align: center;
+}
+img {
+   width: 100%;
+    height: 200px;
+}
+.works {
+    margin: 0 auto;
+    text-align: justify;
+}
+.works a {
+    margin-top: 15px;
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #DDD;
+    border-radius: 0.7REM;
+    border-top-width: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+
+}
+@media screen and (max-width:640px)
+{
+    .works a {
+        width: 45%;
+    }
+}
+.ui-dialog-contain {
+    max-width: inherit;
+    margin:5% auto 1em;
+}
+p {
+    width: 80%;
+}
+.paddingstyle {
+    border: 1px solid #DDD;
+    border-bottom-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-width: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+.fa-mobile-phone:before, .fa-mobile:before{
+    vertical-align: middle;
+}
+.fa-envelope-o:before {
+    vertical-align: middle;
+}
